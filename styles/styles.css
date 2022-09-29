@@ -96,9 +96,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
     letter-spacing: 0.03em;
+    color: #757575;
 }
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -142,38 +141,37 @@ li {
     color: #FFFFFF;
     background-color: #2196F3;
 }
-.name-team1 {
+.name-team {
+    font-family: 'Roboto';
+    font-style: normal;
     margin-left: 71px;
     margin-top: 30px;
     margin-bottom: 59;
     margin-right: 70px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-.name-team3 {
-    margin-left: 71px;
-    margin-right: 70px;
-    margin-top: 30px;
-    margin-bottom: 59;
+.working {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-.name-team4 {
-    margin-left: 63px;
-    margin-right: 62px;
-    margin-top: 30px;
-    margin-bottom: 59;
+.projects {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em
 }
-.working1 {
-    margin-left: 70px;
-}
-.working2 {
-    margin-left: 62px;
-    margin-top: 10px;
-}
-.working3 {
-    margin-left: 97px;
-    margin-top: 10px;
-}
-.working4 {
-    margin-left: 92px;
-    margin-top: 10px;
+.projects-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
 .footer {
     background: #2F303A;
