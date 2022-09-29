@@ -1,0 +1,204 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.logomain {
+    margin-left: 215px;
+    margin-top: 24px;
+}
+.logo {
+    margin-top: 24px;
+    margin-left: 215;
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em
+}
+.logo2 {
+    color: #000000;
+}
+.logo-footer {
+    margin-left: 215px;
+    padding-top: 60px;
+}
+.logo3 {
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    
+}
+.logo4 {
+    color: #FFFFFF;
+}
+.mainsection {
+    background: #2F303A;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px
+}
+.maintext {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    padding-top: 200px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+.email {
+    color: #757575;
+    text-decoration: none;
+}
+.email:hover {
+    color: #2196F3;
+}
+.phone {
+    color: #757575;
+    text-decoration: none;
+}
+.phone:hover {
+    color: #2196F3;
+}
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+    background: #2196F3;
+    margin-left: 692px;
+    margin-top: 30px;
+}
+.osobl-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+.osobl {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+p {
+    color: #757575;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none
+}
+.nav-link {
+    color: #212121;
+}
+.nav-link:hover {
+    color: #2196F3;
+}
+.navigation {
+    display: inline-block;
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.navigation:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.name-team1 {
+    margin-left: 71px;
+    margin-top: 30px;
+    margin-bottom: 59;
+    margin-right: 70px;
+}
+.name-team3 {
+    margin-left: 71px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 59;
+}
+.name-team4 {
+    margin-left: 63px;
+    margin-right: 62px;
+    margin-top: 30px;
+    margin-bottom: 59;
+}
+.working1 {
+    margin-left: 70px;
+}
+.working2 {
+    margin-left: 62px;
+    margin-top: 10px;
+}
+.working3 {
+    margin-left: 97px;
+    margin-top: 10px;
+}
+.working4 {
+    margin-left: 92px;
+    margin-top: 10px;
+}
+.footer {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+}
+.address {
+    padding-left: 180px;
+    padding-top: 20px;
+}
+.address-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+}
+.adresa {
+    color: #FFFFFF;
+}
+.mailfooter {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+}
