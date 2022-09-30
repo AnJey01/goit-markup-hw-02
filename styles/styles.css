@@ -1,17 +1,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-.logomain {
-    margin-left: 215px;
-    margin-top: 24px;
 }
 .logo {
-    margin-top: 24px;
-    margin-left: 215;
+    font-family: 'Raleway', sans-serif;
     color: #2196F3;
     font-weight: 700;
+    font-size: 14px;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
@@ -19,41 +14,31 @@ body {
     letter-spacing: 0.03em
 }
 .logo2 {
+    font-family: 'Raleway', sans-serif;
     color: #000000;
 }
-.logo-footer {
-    margin-left: 215px;
-    padding-top: 60px;
-}
 .logo3 {
+    font-family: 'Raleway', sans-serif;
     color: #2196F3;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    
 }
 .logo4 {
     color: #FFFFFF;
 }
 .mainsection {
     background: #2F303A;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px
 }
 .maintext {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;    
+    line-height: 1.36;    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: #FFFFFF;
-    padding-top: 200px;
-    padding-left: 450px;
-    padding-right: 450px;
 }
 .email {
     color: #757575;
@@ -70,40 +55,31 @@ body {
     color: #2196F3;
 }
 .btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;    
-    color: #FFFFFF;
-    background: #2196F3;
-    margin-left: 692px;
-    margin-top: 30px;
-}
-.osobl-name {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+    background: #2196F3; 
+}
+.osobl-name {
+    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .osobl {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
-h2 {
-    font-family: 'Roboto', sans-serif;
+.section2 {
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -116,25 +92,29 @@ a {
 li {
     list-style-type: none
 }
-.nav-link {
+.nav-link1 {
+    color: #2196F3;
+}
+.nav-link2 {
     color: #212121;
 }
-.nav-link:hover {
+.nav-link2:hover {
+    color: #2196F3;
+}
+.nav-link1:hover {
     color: #2196F3;
 }
 .navigation {
-    display: inline-block;
     color: #212121;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     background: #F5F4FA;
     border: none;
-    padding: 10px 15px;
+    padding: 18px 15px;
     border-radius: 4px;
 }
 .navigation:hover {
@@ -142,52 +122,38 @@ li {
     background-color: #2196F3;
 }
 .name-team {
-    font-family: 'Roboto';
-    font-style: normal;
-    margin-left: 71px;
-    margin-top: 30px;
-    margin-bottom: 59;
-    margin-right: 70px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .working {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .projects {
+    font-family:'Roboto', sans-serif;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .projects-name {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
 }
 .footer {
-    background: #2F303A;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
+
+    background: #2F303A;  
 }
 .address {
-    padding-left: 180px;
-    padding-top: 20px;
+    font-style: normal;
 }
 .address-item {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 24px;
     letter-spacing: 0.03em;
 }
 .adresa {
@@ -196,7 +162,7 @@ li {
 .mailfooter {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;    
+    line-height: 1.71;    
     letter-spacing: 0.03em;    
     color: rgba(255, 255, 255, 0.6);
 }
