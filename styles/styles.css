@@ -14,7 +14,6 @@ body {
     letter-spacing: 0.03em
 }
 .logo2 {
-    font-family: 'Raleway', sans-serif;
     color: #000000;
 }
 .logo3 {
@@ -43,6 +42,9 @@ body {
 .email {
     color: #757575;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
 }
 .email:hover {
     color: #2196F3;
@@ -50,12 +52,15 @@ body {
 .phone {
     color: #757575;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em
 }
 .phone:hover {
     color: #2196F3;
 }
 .btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;    
@@ -83,6 +88,12 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.team {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 p {
     color: #757575;
 }
@@ -94,9 +105,17 @@ li {
 }
 .nav-link1 {
     color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav-link2 {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav-link2:hover {
     color: #2196F3;
@@ -134,7 +153,6 @@ li {
 }
 .projects {
     font-family:'Roboto', sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -158,9 +176,11 @@ li {
 }
 .adresa {
     color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .mailfooter {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;    
