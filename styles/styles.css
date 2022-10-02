@@ -6,9 +6,8 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #2196F3;
     font-weight: 700;
-    font-size: 14px;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     /* identical to box height */
     
     letter-spacing: 0.03em
@@ -42,8 +41,9 @@ body {
 .email {
     color: #757575;
     text-decoration: none;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em
 }
 .email:hover {
@@ -52,8 +52,9 @@ body {
 .phone {
     color: #757575;
     text-decoration: none;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em
 }
 .phone:hover {
@@ -133,7 +134,7 @@ li {
     letter-spacing: 0.03em;
     background: #F5F4FA;
     border: none;
-    padding: 18px 15px;
+    padding: 6px 22px;
     border-radius: 4px;
 }
 .navigation:hover {
@@ -152,7 +153,6 @@ li {
     letter-spacing: 0.03em;
 }
 .projects {
-    font-family:'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -171,7 +171,7 @@ li {
 }
 .address-item {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .adresa {
